@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 20%;
+    background: #303841;
+}
+
+
+body{
+    background: #1A3263;
+    color: white;
+}
+.contenido{
+    text-align: center;
+}
+
+.nav{
+    text-align: right;
+}
+.textHeader{
+    text-align: left;
+}
+
+.navigation li{
+    padding: 20px;
+    display: inline-block;
+    }
+    .navigation li a{
+       color: white;
+       font-size: 10pt;
+       
+    }
+    .navigation li a:hover{
+        color: purple;
+    }
+
+
+.portada{
+    border-radius: 50%;
+    border-style: hidden;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    border-color: violet;
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -moz-transition: -moz-transform 0.3s ease-out;
+    margin-top:20px;
+    background:white;
+    justify-content: center;
+
+    
+   }
+   .portada:hover{
+     transform: rotate(360deg)
+   }
+
+
+
+.bienvenida{
+    margin: 20px;
+    font-size: 50px;
+
+    
+}
+
+.description{
+    margin-top: 40px;
+    font-style: italic;
+    font-size: 20pt;
+}
+
+.Description2{
+   
+    font-size: 20pt;
+    margin: 40px;
+}
+
+.catalogo{
+    width: 40%;
+    height: auto;
+    border-radius: 5%;
+    margin: 20pt;
+    
+}
+.catalogo:hover{
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    background: darkorchid;
+}
+
+
+.imgRedes{
+    background: white;
+    border-radius: 50%;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    margin-top:20px;
+  }
+  .imgRedes:hover{
+    height: 60px;
+  }
+
+  footer{
+   background: #303841;
+   height: 100px;
+  }
+  footer p{
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+  }
+  footer p a{
+    color: white;
+  }
+  
+  .GaleriaHF{
+    margin: 30px;
+  }
